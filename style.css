@@ -523,7 +523,7 @@ header .container {
 .form-group input,
 .form-group textarea {
     width: 100%;
-    padding: 12px 15px;
+    padding: 5px 5px;
     border: 1px solid #ddd;
     border-radius: 5px;
     font-family: inherit;
@@ -536,10 +536,11 @@ header .container {
     outline: none;
     border-color: var(--primary-color);
     box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+   
 }
 
 .form-group textarea {
-    min-height: 150px;
+    min-height: 100px;
     resize: vertical;
 }
 
